@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Mobile Sign-in Page</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   </head>
+   <body>
+      <div class="container px m30" style="background-color: #f5f1f7">
+         <div id="Mainframe" class="container d-flex justify-content-center curveedges paddingundoto0 shadow-lg">
+            <div class="col-6">
+               <img src="./Mobile.png" height="700">
+            </div>
+            <div class="col-6" style="background-color: #ffffff;">
+               <div class="PL10 px-5">
+                  <h2><b>Log in to BelajarYuk.</b></h2>
+                  <p>Welcome back! login with your data that you entered during registeration.</p>
+                  <div>
+                     <button class="btn-lg btn-block shadow buttoncss"><a href="" style="text-decoration: none; color: #5e5e5e;"><img src="Google.png" height="17px" width="17px"><span class="pl-6">Login with Google</span></a></button>
+                  </div>
+                  <div>
+                     <button class="btn-lg btn-block shadow buttoncss"><a href="" style="text-decoration: none; color: #5e5e5e;"><img src="Facebook.png" height="20px" width="20px"><span class="pl-6">Login with Facebook</span></a></button>
+                  </div>
+                  <div class="py-3 pb-4" style="text-align: center;">
+                     <hr style="width: 44%; float: left;">
+                     or
+                     <hr style="width: 44%; float: right;">
+                  </div>
+               </div>
+
+               <form action="login.php" method="post">
+                  <div class="container px-5 d-flex">
+                     <div class="setbgcolor p-3 rounded-edge-left">
+                        <i class="fa fa-envelope"></i>
+                     </div>
+                     <div class="setbgcolor py-1 rounded-edge-right" style="width: 100%">
+                        <label class="d-block pb-1">Email</label> 
+                           <input type="email" name="Email">
+                     </div>
+                  </div>
+               
+                  <div class="container px-5 py-3 d-flex">
+                     <div class="setbgcolor p-3 rounded-edge-left">
+                        <i class="fa fa-envelope"></i>
+                     </div>
+                     <div class="setbgcolor py-1 rounded-edge-right" style="width: 100%">
+                        <label class="d-block pb-1">Password</label> 
+                           <input type="Password" name="Password">
+                     </div>
+                  </div>
+                  <div class="container px-5 d-flex">
+                     <input class="checkbox" type="checkbox" name="checkbox" value="checkbox">
+                     <div class="container">
+                        <label style="float: left;">Remember me</label>
+                     </div>
+                     <div class="container">
+                        <a href="" style=" color: black; font-size: 14px; float: right;">Forgot your password?</a>
+                     </div>
+                  </div>
+                  <div class="px-5 pt-1">
+                        <button class="btn-lg loginbuttoncss" style="width: 100%; font-size: 13px;">LOGIN</button>
+                  </div>
+                  <div class="px-5 pt-4" style="font-size: 13px; text-align: center;">
+                     <p style="color: #3d3d3d;">Don't have an account? <a href="" style=" color: #3d3d3d;">Resgister</a></p>
+                  </div>
+               </form>
+
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
